@@ -66,43 +66,52 @@ function App() {
         </div>
         <img className="background" src={Background} alt="background" />
         <div className="container goal-steps">
-          <div className="step-title">
-            <div className="title-icon">
-              <span>goal</span>
-              <span>1</span>
-              <img src={Pattern} alt="pattern" />
+          <div className="step-container first">
+            <div className="step-title">
+              <div className="title-icon">
+                <span>goal</span>
+                <span>1</span>
+                <img src={Pattern} alt="pattern" />
+              </div>
+              <h2>Introduction to Deep Work</h2>
             </div>
-            <h2>Introduction to Deep Work</h2>
+            <StepCard title="Name..." description="Are you ready to start your own deep work routine? This article explains everything you need to know.  If you use every technique in this article, you will double or even triple the amount of high..." background={Background1} />
+            <StepCard title="Name..." description="Are you ready to start your own deep work routine? This article explains everything you need to know.  If you use every technique in this article, you will double or even triple the amount of high..." background={Background2} />
           </div>
-          <StepCard title="Name..." description="Are you ready to start your own deep work routine? This article explains everything you need to know.  If you use every technique in this article, you will double or even triple the amount of high..." background={Background1} />
-          <StepCard title="Name..." description="Are you ready to start your own deep work routine? This article explains everything you need to know.  If you use every technique in this article, you will double or even triple the amount of high..." background={Background2} />
-          <div className="step-title">
-            <div className="title-icon">
-              <span>goal</span>
-              <span>2</span>
-              <img src={Pattern} alt="pattern" />
+          <div className="step-container">
+            <div className="step-title">
+              <div className="title-icon">
+                <span>goal</span>
+                <span>2</span>
+                <img src={Pattern} alt="pattern" />
+              </div>
+              <h2>Learn about Deep Work from the person who wrote the book on it</h2>
             </div>
-            <h2>Learn about Deep Work from the person who wrote the book on it</h2>
+            <StepCard title="Name..." description="Are you ready to start your own deep work routine? This article explains everything you need to know.  If you use every technique in this article, you will double or even triple the amount of high..." background={Background3} />
           </div>
-          <StepCard title="Name..." description="Are you ready to start your own deep work routine? This article explains everything you need to know.  If you use every technique in this article, you will double or even triple the amount of high..." background={Background3} />
-          <div className="step-title">
-            <div className="title-icon">
-              <span>goal</span>
-              <span>3</span>
-              <img src={Pattern} alt="pattern" />
+          <div className="step-container">
+            <div className="step-title">
+              <div className="title-icon">
+                <span>goal</span>
+                <span>3</span>
+                <img src={Pattern} alt="pattern" />
+              </div>
+              <h2>Start a Deep Work routine for yourself</h2>
             </div>
-            <h2>Start a Deep Work routine for yourself</h2>
+            <StepCard title="Name..." description="Are you ready to start your own deep work routine? This article explains everything you need to know.  If you use every technique in this article, you will double or even triple the amount of high..." background={Background4} />
           </div>
-          <StepCard title="Name..." description="Are you ready to start your own deep work routine? This article explains everything you need to know.  If you use every technique in this article, you will double or even triple the amount of high..." background={Background4} />
-          <div className="step-title">
-            <div className="title-icon">
-              <span>goal</span>
-              <span>4</span>
-              <img src={Pattern} alt="pattern" />
+          <div className="step-container last">
+            <div className="step-title">
+              <div className="title-icon">
+                <span>goal</span>
+                <span>4</span>
+                <img src={Pattern} alt="pattern" />
+              </div>
+              <h2>Start a Deep Work routine for yourself</h2>
             </div>
-            <h2>Start a Deep Work routine for yourself</h2>
+            <StepCard title="Name..." description="Are you ready to start your own deep work routine? This article explains everything you need to know.  If you use every technique in this article, you will double or even triple the amount of high..." background={Background5} />
+            <div className="border-element" />
           </div>
-          <StepCard title="Name..." description="Are you ready to start your own deep work routine? This article explains everything you need to know.  If you use every technique in this article, you will double or even triple the amount of high..." background={Background5} />
         </div>
       </main>
     </div>
