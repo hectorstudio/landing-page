@@ -1,0 +1,75 @@
+.cardContainer {
+  max-width: 950px;
+  margin: 5px 46px 25px;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  box-shadow: 0px 1px 4px RGBA(0.8, 32, 0.12), 0px 4px 8px RGBA(0, 8, 32, 0.08);
+  border-radius: 4px;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 24px;
+}
+
+.cardBody .title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #152540;
+  margin-top: 20px;
+}
+
+.cardBody .description {
+  color: #556685;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: left;
+  margin: 16px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.tags {
+  display: flex;
+}
+
+.duration {
+  color: #556685;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.duration img {
+  padding-right: 6px;
+}
+
+.cardBody button {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 8px 22px;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  background: #5A55AB;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cardContainer img {
+  max-width: 332px;
+}

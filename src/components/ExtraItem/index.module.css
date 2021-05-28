@@ -1,0 +1,25 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5A55AB;
+  width: 28px;
+  height: 28px;
+  border-radius: 15px;
+  box-shadow: 0px 1px 4px RGBA(0, 8, 32, 0.12), 0px 4px 8px RGBA(0, 8, 32, 0.08);
+}
+
+.item p {
+  color: #556685;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: normal;
+  padding-left: 12px;
+  margin: 0;
+}
